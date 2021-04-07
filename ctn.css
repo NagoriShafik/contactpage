@@ -1,0 +1,292 @@
+/*--- Body ----*/
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #282828;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*--- home btn----*/
+
+.hm {
+  height: 50px;
+  width: 50px;
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  left: 45%;
+  top: 20px;
+  color: #ff0040;
+  cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*--- Top Bar ----*/
+
+.ctnme {
+  position: relative;
+  top: 30%;
+  display: inline-block;
+}
+
+h1 {
+  display: block;
+  padding: 0 0 30px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+h3 {
+  display: block;
+  padding: 40px 0 10px;
+  font-family: sans-serif;
+  color: rgba(163, 65, 74, 0.603);
+  font-size: 30px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*--- Info Bar ----*/
+
+.a {
+  position: relative;
+  margin: 0 50px 0;
+  padding: 0 25px 0;
+  height: 200px;
+  width: 450px;
+  display: inline-block;
+  border: 2px solid #413e3e;
+  box-shadow: 3px 3px 3px black;
+  font-family: sans-serif;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.icon {
+  color: #ff0040;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  padding-bottom: 0;
+}
+
+p {
+  position: relative;
+  font-size: 20px;
+  top: 50px;
+}
+
+.email {
+  position: relative;
+  top:50px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ctn-info{
+    color: grey;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+  .h-note{
+      height: 20px;
+      position: relative;
+      right:500px;
+      top:30px;
+      font-size: 20px;
+      color:red;
+  }
+
+/*--- Mail Section ----*/
+
+form {
+  background: transparent;
+}
+
+.c {
+  box-shadow: 3px 3px 3px black;
+  padding-left: 22px;
+  height: 60px;
+  width: 700px;
+  position: relative;
+  top: 100px;
+  right: 500px;
+  line-height: 5;
+  border: 2px solid #413e3e;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+}
+
+.c:hover,
+.c:focus {
+  outline: none;
+}
+
+.eis {
+  position: relative;
+  top: 150px;
+}
+
+.subject {
+  position: relative;
+  top: 200px;
+}
+
+.msg {
+  padding-top: 10px;
+  padding-left: 20px;
+  height: 280px;
+  width: 850px;
+  background: transparent;
+  border: 2px solid #413e3e;
+  position: relative;
+  left: 450px;
+  bottom: 95px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #fff;
+  box-shadow: 3px 3px 5px black;
+}
+
+.msg:hover,
+.msg:focus {
+  outline: none;
+}
+
+.sbt {
+  box-shadow: 5px 5px 20px black;
+  background: transparent;
+  color: #ff0040;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  left: 780px;
+  bottom: 30px;
+  font-weight: bold;
+  outline: none;
+}
+.sbt:hover {
+  box-shadow: 5px 5px 20px rgb(146, 124, 124);
+}
+
+ .div-info{
+   display: inline-block;
+  }
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*--- Media Query ----*/
+@media screen and (max-width: 767px) {
+  body {
+    display: block;
+    width: 10px;
+    float: left;
+  }
+  .hm {
+    display: none;
+  }
+  .ctnme {
+    position: relative;
+    left: 170px;
+    top: 30px;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  h1 {
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 120px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    float: left;
+  }
+  .div-info{
+      padding-bottom: 20px;
+  }
+
+  .info-s {
+    display: inline-block;
+  }
+  .a {
+    position: relative;
+    left: -50px;
+    height: 100px;
+    width: 280px;
+  }
+  .icon {
+      display: none;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .sa {
+    position: relative;
+    top:10px;
+    font-size: 15px;
+  }
+  .h-note{
+      height: 20px;
+      text-align: start;
+      color:red;
+  }
+
+  .c-f {
+    position: relative;
+    left: 25px;
+    bottom: 200px;
+    height: 200px;
+    width: 300px;
+    display: block;
+  }
+  
+
+  .c {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 220px;
+    font-size: 15px;
+    display: block;
+  }
+
+  .msg {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    font-size: medium;
+    height: 230px;
+    width: 330px;
+  }
+
+  .sbt {
+    height: 40px;
+    width: 120px;
+    font-size: x-small;
+    position: relative;
+    top: 20px;
+    left: 280px;
+  }
+  .contact-form{
+      padding-bottom: 100px;
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/

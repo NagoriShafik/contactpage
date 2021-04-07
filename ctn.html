@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CONTACT-ME</title>
+    <link rel="stylesheet" href="ctn.css">
+    <link class="icon" rel="icon" href="img/envelope-solid.svg" style="background-color:aqua">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/c6ff8fb5d3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <a class="hm" href="index.html"><img src="img/skl.svg"></a>
+    <h3 class=" ctnme">CONTACT</h3>
+    <h1 class="git">GET IN TOUCH</h1>
+    <div class="info-s">
+        <ul id="info-bar">
+            <div class="div-info">
+                <li class="a pn"><i class="icon fas fa-phone"></i>
+                    <p class="sa">Phone</p>
+                    <p class="sa ctn-info">992 553 8699</p>
+                </li>
+            </div>
+            <div class="div-info">
+                <a class="" href="mailto:nagorishafiq1996@gmail.com">
+                    <li class="a ei"><i class="icon fas fa-envelope"></i>
+                        <p class="email">Email</p>
+                        <p class="sa ctn-info">nagorishafiq1996@gmail.com</p>
+                    </li>
+                </a>
+            </div>
+            <div class="div-info">
+                <li class="a ad"><i class="icon fas fa-map-marker-alt"></i>
+                    <p class="sa">Addresh</p>
+                    <p class="sa ctn-info">BTM 2nd Stage,Bangalore- 560076</p>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <div class="contact-form">
+        <div class="c-f">
+            <form id="contact-form" method="POST" action="contact.php"></form>
+
+            <input name=" name" class="c ni" type="text" placeholder="Name"><br>
+
+            <input name=" eamil" class="c eis" type="email" placeholder="email"><br>
+
+            <input name=" subject" class="c subject" type="text" placeholder="Subject"><br>
+
+        </div>
+
+        <textarea name="message" class="msg" placeholder="Message" row="4" required></textarea><br>
+
+        <button type="submit" id="sbt" class="sbt">SEND MESSAGE</button>
+        </form>
+
+    </div>
+
+    <!-- Java Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
